@@ -2,6 +2,14 @@ body {
 background-color: grey;
 }
 
+.menuButton {
+    background-color:white;
+    position: fixed;
+}
+
+.menuButton_main {
+    size: 12px
+}
 .mainButton {
 background-color: red;
 border: 0ch;
