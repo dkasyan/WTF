@@ -1,0 +1,19 @@
+.body{
+    background-color: blue;
+}
+.main{
+    background-color: peru;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+    
+}
+
+.form {
+    display: block;
+    border: 4px solid wheat;
+    
+
+
+}
