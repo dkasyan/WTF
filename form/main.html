@@ -12,10 +12,37 @@
         <form action="http://dev.cotenfrontend.pl" method="POST" class="form">
             <p class="form_name">
                 <label for="name">Podaj imię</label>
-                <input name="name" id="name"> </input>                
+                <input name="imie" id="name"> </input>                
             </p>
+            <p class="form_surname">
+                <label for="sname"> Podaj Nazwisko</label>
+                <input name="nazwisko" id="sname"> </input>
+            </p>
+            <p class="form_email">
+
+            </p>
+            <p> 
+                <p>Wybierz płeć:</p>
+                <label for="men">Facet</label>                
+                <input type="radio" name="sex" id="men">
+                <label type="radio"> Kobieta</label>                
+                <input type="radio" name="sex" id="wmen">
+            </p>
+            <p>
+                <select name="select" id="Wyrazasz zgodę ?">
+                    <option value="yes"> YES </option>
+                    <option value="no"> NO </option>
+                    <option value="moze"> MAY</option>                    
+                </select>
+            </p>
+            <p>
+                <p>Napisz coś do nas</p>
+                <textarea></textarea>
+            </p>
+
+
             <input type="submit">
-            
+
             
         </form>
     </main>
